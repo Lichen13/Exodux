@@ -1,5 +1,5 @@
-Project-Name (Program)   : Exodux ©
-Owner (Also have rights) : Lichen
+Project-Name (Program)   : Exodux ©\n
+Owner (Also have rights) : Lichen\n
 
-Copyright © Lichen 2024 ALL RIGHTS RESERVED.
-Copyright include all the files here!
+Copyright © Lichen 2024 ALL RIGHTS RESERVED.\n
+Copyright include all the files here!\n
