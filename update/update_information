@@ -1,7 +1,7 @@
 \033[1m [ UPDATE INFORMATION ] \033[0m
-    \033[4m Previous Update  :\033[0m None
-    \033[4m Current Update   :\033[0m Dev
-    \033[4m Live Update      :\033[0m Beta
+    \033[4m Previous Update\033[0m  : None
+    \033[4m Current Update\033[0m   : Dev
+    \033[4m Live Update\033[0m      : Beta
 
 \033[1m [ WHAT'S NEW ] \033[0m
     No new features since we are still in the update: \033[4mDev\033[0m
