@@ -1,7 +1,6 @@
 #####################################################
 #  COPYRIGHT (C) LICHEN 2024 | ALL RIGHTS RESERVED  #       
 #####################################################
-
 import shutil
 import subprocess
 import os
@@ -33,7 +32,7 @@ def set_files():
 				return True
 			except shutil.Error:
 				return True
-
+				
 	except FileExistsError:
 		if os.path.exists(os.path.join(folder1, file1)):
 			try:
