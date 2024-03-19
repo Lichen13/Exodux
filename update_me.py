@@ -18,7 +18,7 @@ inside_file2 = subprocess.run(["curl", "-s", file2], stdout=subprocess.PIPE, tex
 inside_file2 = inside_file2.stdout
 
 file3 = "centroped.py"
-file3_url = "https://github.com/Lichen13/Exodux/blob/main/centroped.py"
+file3_url = "https://raw.githubusercontent.com/Lichen13/Exodux/main/centroped.py"
 inside_file3 = subprocess.run(["curl", "-s", file3_url], stdout=subprocess.PIPE, text=True)
 inside_file3 = inside_file3.stdout
 
