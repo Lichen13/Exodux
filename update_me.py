@@ -23,7 +23,7 @@ inside_file3 = subprocess.run(["curl", "-s", file3_url], stdout=subprocess.PIPE,
 inside_file3 = inside_file3.stdout
 
 file4 = "update_me.py"
-file4_url = "https://github.com/Lichen13/Exodux/blob/main/update_me.py"
+file4_url = "https://raw.githubusercontent.com/Lichen13/Exodux/main/update_me.py"
 inside_file4 = subprocess.run(["curl", "-s", file4_url], stdout=subprocess.PIPE, text=True)
 inside_file4 = inside_file4.stdout
 
