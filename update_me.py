@@ -17,6 +17,16 @@ file2 = "https://raw.githubusercontent.com/Lichen13/Exodux/main/version.txt"
 inside_file2 = subprocess.run(["curl", "-s", file2], stdout=subprocess.PIPE, text=True)
 inside_file2 = inside_file2.stdout
 
+file3 = "centroped.py"
+file3_url = "https://github.com/Lichen13/Exodux/blob/main/centroped.py"
+inside_file3 = subprocess.run(["curl", "-s", file3_url], stdout=subprocess.PIPE, text=True)
+inside_file3 = inside_file2.stdout
+
+file4 = "update_me.py"
+file4_url = "https://github.com/Lichen13/Exodux/blob/main/update_me.py"
+inside_file4 = subprocess.run(["curl", "-s", file4_url], stdout=subprocess.PIPE, text=True)
+inside_file4 = inside_file2.stdout
+
 # >=> SCRIPT <=<
 def set_files_environment():
 	try:
@@ -96,7 +106,12 @@ def loading():
 def update_system():
 	with open(os.path.join(folder1, file1), "w") as file:
 		file.write(inside_file2)
-		time.sleep(5)
+		time.sleep(2)
+	with open(file3, "w") as file:
+		file.write(inside_file3)
+		time.sleep(2)
+	with open(file4, "w") as file:
+		file.write(inside_file4)
 	return True
 
 
