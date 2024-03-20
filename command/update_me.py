@@ -72,27 +72,6 @@ def set_files_environment():
 					return
 
 
-def is_system_need_update():
-	with open(os.path.join(folder1, file1), "r") as file:
-		inside_file1 = file.read()
-	if inside_file1 == inside_file2:
-		print("┃")
-		print("┗[✓]-Exodux is already up-to-date.\n")
-	
-	else:
-		print("┃[!]-An update is required.")
-		input1 = input("┃Proceed? [Y/N] : ")
-
-		if input1 == "Y":
-			print("┃")
-			return True
-		
-		else:
-			print("┃")
-			print("┗[✓]-Abort.\n")
-			return
-
-
 def loading():
 	while thread1.is_alive():
 		characters = ["|", "/", "-", "\\"]
