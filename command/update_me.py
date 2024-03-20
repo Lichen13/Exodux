@@ -13,17 +13,17 @@ import os
 # >=> FILES VARIABLES <=<
 folder1 = "updates"
 file1 = "version.txt"
-file2 = "https://raw.githubusercontent.com/Lichen13/Exodux/main/version.txt"
+file2 = "https://raw.githubusercontent.com/Lichen13/Exodux/main/command/version.txt"
 inside_file2 = subprocess.run(["curl", "-s", file2], stdout=subprocess.PIPE, text=True)
 inside_file2 = inside_file2.stdout
 
 file3 = "centroped.py"
-file3_url = "https://raw.githubusercontent.com/Lichen13/Exodux/main/centroped.py"
+file3_url = "https://raw.githubusercontent.com/Lichen13/Exodux/main/command/centroped.py"
 inside_file3 = subprocess.run(["curl", "-s", file3_url], stdout=subprocess.PIPE, text=True)
 inside_file3 = inside_file3.stdout
 
 file4 = "update_me.py"
-file4_url = "https://raw.githubusercontent.com/Lichen13/Exodux/main/update_me.py"
+file4_url = "https://raw.githubusercontent.com/Lichen13/Exodux/main/command/update_me.py"
 inside_file4 = subprocess.run(["curl", "-s", file4_url], stdout=subprocess.PIPE, text=True)
 inside_file4 = inside_file4.stdout
 
