@@ -118,16 +118,15 @@ def update_system():
 def main():
 	global thread1
 	if set_files_environment():
-		if is_system_need_update():
-			thread1 = threading.Thread(target=update_system)
-			thread2 = threading.Thread(target=loading)
-			thread1.start()
-			thread2.start()
-			thread1.join()
-		else:
-			return
+		thread1 = threading.Thread(target=update_system)
+		thread2 = threading.Thread(target=loading)
+		thread1.start()
+		thread2.start()
+		thread1.join()
 	else:
 		return
+else:
+	return
 
 if __name__ == "__main__":
 	main()
