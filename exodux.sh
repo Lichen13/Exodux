@@ -30,11 +30,11 @@ if [ ! -f "$first_run" ]; then
 				exit
 
 			elif [ $result1 -eq 0 ]; then
-				curl -sO "https://raw.githubusercontent.com/Lichen13/Exodux/main/update_me.py"
+				curl -sO "https://raw.githubusercontent.com/Lichen13/Exodux/main/command/update_me.py"
 				result2=$?
 
 				if [ $result2 -eq 0 ]; then
-					curl -sO "https://raw.githubusercontent.com/Lichen13/Exodux/main/centroped.py"
+					curl -sO "https://raw.githubusercontent.com/Lichen13/Exodux/main/command/centroped.py"
 					result3=$?
 
 					if [ $result3 -eq 0 ]; then
