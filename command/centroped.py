@@ -12,13 +12,13 @@ import os
 
 # >=> FILES VARIABLES <=<
 folder1 = "packages"
-file1 = "https://raw.githubusercontent.com/Lichen13/Exodux/main/test"
+file1 = "https://raw.githubusercontent.com/Lichen13/Exodux/main/packages/test"
 inside_file1 = subprocess.run(["curl", "-s", file1], stdout=subprocess.PIPE)
 inside_file1_output = str(inside_file1.stdout)
 
 # >=> PACKAGE DICTIONNARY <=<
 packages = {
-	"test": "https://raw.githubusercontent.com/Lichen13/Exodux/main/version.txt"
+	"test": "https://raw.githubusercontent.com/Lichen13/Exodux/main/packages/test"
 }
 
 
