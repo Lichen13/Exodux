@@ -1,5 +1,5 @@
 #####################################################
-#  COPYRIGHT (C) LICHEN 2024 | ALL RIGHTS RESERVED  #       
+#  COPYRIGHT (C) LICHEN 2024 | GNU GPL-3.0 LICENSE  #       
 #####################################################
 
 first_run="run_once.flag"
